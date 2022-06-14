@@ -15,10 +15,10 @@ export default function Card(props) {
                     <h1>{props.title}</h1>
                 </div>
                 <div className="card-date">
-                    <h2>
+                    <h3>
                         <span className="date-start"> {props.startDate} - </span>
                         <span className="date-end">{props.endDate}</span>
-                    </h2>
+                    </h3>
                 </div>
                 <div className="card-text">
                     <p>
