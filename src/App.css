@@ -39,5 +39,12 @@ nav {
 
 .info--location > h2 {
   font-weight: 400;
+  display: flex;
+  align-items: center;
+  gap: 15px;
   font-size: 20px;
+}
+
+.info--country{
+  font-weight: bold;
 }
